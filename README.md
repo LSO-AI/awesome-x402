@@ -1215,6 +1215,7 @@ Projects building with or extending x402.
 
 
 - [Viridis Agent Fleet](https://mcp.viridisconservation.com/agents) - Five deterministic carbon and compliance tools payable per call with x402 USDC on Base, covering quantity takeoff, GHG inventory, CSRD/IFRS S2 disclosure, clean-energy tax credits, and regulatory scanning. Includes a [free dry-run quickstart](https://mcp.viridisconservation.com/quickstart) and [open-source five-route demo client](https://github.com/jdhart81/viridis-agent-fleet/blob/main/scripts/x402_demo_client.py).
+- [Brian Booms](https://brianbooms.com/agents/) - Agent storefront selling 17 digital music products via x402 v1 (USDC on Base): sample packs, ringtones, track leases, game licenses, custom commissions ($4.99–$299). No account or API key; agents earn 10% back in store credit (15% first purchase) + 5% referrals. [Machine-readable catalog](https://brianbooms.com/.well-known/purchase-catalog.json) · [OpenAPI](https://pay.brianbooms.com/openapi.json)
 
 ### Data & Social APIs
 - [IPIntel.ai](https://ipintel.ai/x402-api) - Machine-payable IP threat intelligence lookup via x402 on Base. Pay $0.001 USDC per IP lookup, no account or API key required. Returns JSON risk scoring, ASN/ISP context, hosting/proxy/Tor indicators, bot signals, and infrastructure metadata. Endpoint: `https://api.ipintel.ai/x402/?ip={ip}`. OpenAPI: `https://api.ipintel.ai/openapi.json`.
